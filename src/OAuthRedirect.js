@@ -5,7 +5,7 @@ const OAuthRedirect = () => {
     const getTokenFromResponse = async () => {
       try {
         // 서버로부터 토큰을 받아오는 fetch 요청
-        const response = await fetch('https://port-0-i-gacha-backend-m7ogd43l77318f45.sel4.cloudtype.app/api/user/tokenVerification', {
+        const response = await fetch('https://api.likelion13th-swu.site/api/user/tokenVerification', {
           method: 'GET',
           credentials: 'include', // 쿠키를 포함해서 요청 보내기
         });
